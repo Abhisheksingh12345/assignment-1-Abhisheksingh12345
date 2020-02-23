@@ -1,6 +1,7 @@
 package Client;
 
 public class Client {
-    private String fristName;
+    private String firstName;
+    private String lastName;
 
 }
