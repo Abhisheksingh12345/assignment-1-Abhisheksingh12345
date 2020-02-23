@@ -16,6 +16,8 @@ public class AddContact {
         System.out.print("Last Name : ");
         client.setLastName(tell.nextLine());
         LinkedListDefinition<Long> contactNumber=new LinkedListDefinition<Long>();
+        while (finish!=true){
 
+        }
     }
 }
