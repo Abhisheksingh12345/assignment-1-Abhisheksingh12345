@@ -39,6 +39,9 @@ public class Main {
                 case 5:
                     turnoff = true;
                     break;
+                default:
+                    System.out.println("invalid choice please re-enter");
+                    break;
 
 
 
