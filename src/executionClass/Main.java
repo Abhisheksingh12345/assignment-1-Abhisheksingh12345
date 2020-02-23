@@ -10,6 +10,21 @@ public class Main {
         boolean turnoff = false;
         LinkedListDefinition<Client> listContact=new LinkedListDefinition();
         Scanner tell=new Scanner(System.in);
+        System.out.println("Welcome to Abhi Contact list \uD83D\uDE01:");
+        while (!turnoff) {
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
