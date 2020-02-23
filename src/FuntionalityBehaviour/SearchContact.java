@@ -13,6 +13,13 @@ public class SearchContact {
         LinkedListDefinition<Client> matchedContact = new LinkedListDefinition();
         System.out.println("You could search for a contact from their first names:");
         String element = tell.nextLine();
+        int match = 0;
+
+
+
+
+
+
 
     }
 
