@@ -3,6 +3,7 @@ package executionClass;
 import Client.Client;
 import LinkList.LinkedListDefinition;
 
+import javax.swing.text.View;
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +23,11 @@ public class Main {
                 case 1:
                     AddContact add = new AddContact();
                     listContact.add(add.addContact());
-
+                    break;
+                case 2:
+                    View view = new View();
+                    view.viewList(listContact);
+                    break;
 
 
 
