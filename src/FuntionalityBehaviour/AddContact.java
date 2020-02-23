@@ -21,13 +21,14 @@ public class AddContact {
             contactNumber.add(Long.parseLong(tell.nextLine()));
             System.out.print("Would you like to add another contact number? (y/n): ");
             char choise = (tell.nextLine()).charAt(0);
-            if (choise!= 'n') {
+            if (choise != 'n') {
 
             } else
                 finish = true;
         }
         client.setContactNo(contactNumber);
-
+        System.out.print("Would you like to add Email address ? (y/n): ");
+        char choise = (tell.nextLine()).charAt(0);
 
 
 
