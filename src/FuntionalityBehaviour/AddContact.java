@@ -10,6 +10,9 @@ public class AddContact {
         Scanner tell = new Scanner(System.in);
         System.out.println("You have chosen to add a new Contact: ");
         boolean finish = false;
+        System.out.println("Please enter the Name of the Person: ");
+        System.out.print("First Name : ");
+        client.setFirstName(tell.nextLine());
 
 
     }
