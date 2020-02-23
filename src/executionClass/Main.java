@@ -32,6 +32,10 @@ public class Main {
                     SeachContact search = new SeachContact();
                     search.seach(listContact);
                     break;
+                case 4:
+                    deleteContact delete = new deleteContact();
+                    delete.removeContactFormLIst(listContact);
+                    break;
 
 
 
