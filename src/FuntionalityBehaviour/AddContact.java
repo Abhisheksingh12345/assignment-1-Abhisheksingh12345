@@ -13,7 +13,8 @@ public class AddContact {
         System.out.println("Please enter the Name of the Person: ");
         System.out.print("First Name : ");
         client.setFirstName(tell.nextLine());
-
+        System.out.print("Last Name : ");
+        client.setLastName(tell.nextLine());
 
     }
 }
