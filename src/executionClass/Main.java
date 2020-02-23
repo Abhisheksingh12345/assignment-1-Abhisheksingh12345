@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         boolean turnoff = false;
-        LinkedListDefinition<Client> listContact=new LinkedListDefinition();
-        Scanner tell=new Scanner(System.in);
+        LinkedListDefinition<Client> listContact = new LinkedListDefinition();
+        Scanner tell = new Scanner(System.in);
         System.out.println("Welcome to Abhi Contact list \uD83D\uDE01:");
         while (!turnoff) {
             System.out.println("Press 1 to add a new contact\n" +
@@ -42,6 +42,10 @@ public class Main {
                 default:
                     System.out.println("invalid choice please re-enter");
                     break;
+            }
+        }
+    }
+}
 
 
 
@@ -53,4 +57,4 @@ public class Main {
 
 
     }
-}
+            }
