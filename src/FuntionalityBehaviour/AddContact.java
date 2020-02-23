@@ -19,6 +19,7 @@ public class AddContact {
         while (finish!=true){
             System.out.print("Contact number: ");
             contactNumber.add(Long.parseLong(tell.nextLine()));
-        }
+        } System.out.print("Would you like to add another contact number? (y/n): ");
+        char choise = (tell.nextLine()).charAt(0);
     }
 }
