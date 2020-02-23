@@ -18,7 +18,8 @@ public class Main {
                     "Press 4 to delete a contact\n" +
                     "Press 5 to exit program ");
             int ch = tell.nextInt();
-
+            switch (ch) {
+                case 1:
 
 
 
