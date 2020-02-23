@@ -21,6 +21,7 @@ public class Main {
             switch (ch) {
                 case 1:
                     AddContact add = new AddContact();
+                    listContact.add(add.addContact());
 
 
 
