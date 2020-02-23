@@ -33,19 +33,6 @@ public class AddContact {
             System.out.println("Enter the Email: ");
             client.setEmailAddress(tell.nextLine());
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
+        return client;
     }
+}
