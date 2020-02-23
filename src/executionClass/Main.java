@@ -20,6 +20,7 @@ public class Main {
             int ch = tell.nextInt();
             switch (ch) {
                 case 1:
+                    AddContact add = new AddContact();
 
 
 
