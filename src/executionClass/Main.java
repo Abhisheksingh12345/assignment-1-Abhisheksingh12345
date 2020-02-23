@@ -36,6 +36,9 @@ public class Main {
                     deleteContact delete = new deleteContact();
                     delete.removeContactFormLIst(listContact);
                     break;
+                case 5:
+                    turnoff = true;
+                    break;
 
 
 
