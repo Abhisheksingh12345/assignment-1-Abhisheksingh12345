@@ -29,7 +29,10 @@ public class AddContact {
         client.setContactNo(contactNumber);
         System.out.print("Would you like to add Email address ? (y/n): ");
         char choise = (tell.nextLine()).charAt(0);
-
+        if (choise == 'y') {
+            System.out.println("Enter the Email: ");
+            client.setEmailAddress(tell.nextLine());
+        }
 
 
 
