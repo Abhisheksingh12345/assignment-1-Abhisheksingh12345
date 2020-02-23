@@ -28,7 +28,10 @@ public class Main {
                     View view = new View();
                     view.viewList(listContact);
                     break;
-
+                case 3:
+                    SeachContact search = new SeachContact();
+                    search.seach(listContact);
+                    break;
 
 
 
