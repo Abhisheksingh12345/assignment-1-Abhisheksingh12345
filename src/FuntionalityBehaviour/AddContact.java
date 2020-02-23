@@ -26,6 +26,7 @@ public class AddContact {
             } else
                 finish = true;
         }
+        client.setContactNo(contactNumber);
 
 
 
