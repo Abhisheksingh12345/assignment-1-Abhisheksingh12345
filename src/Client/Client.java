@@ -6,6 +6,22 @@ public class Client {
     private LinkedListDefinition<Long> contactNo;
     private String emailAddress;
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public LinkedListDefinition<Long> getContactNo() {
+        return contactNo;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
