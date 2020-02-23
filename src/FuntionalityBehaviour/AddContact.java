@@ -9,5 +9,8 @@ public class AddContact {
         Client client = new Client();
         Scanner tell = new Scanner(System.in);
         System.out.println("You have chosen to add a new Contact: ");
+        boolean finish = false;
+
+
     }
 }
