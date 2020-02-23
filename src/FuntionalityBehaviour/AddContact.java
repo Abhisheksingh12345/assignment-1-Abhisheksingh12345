@@ -1,6 +1,7 @@
 package FuntionalityBehaviour;
 
 import Client.Client;
+import LinkList.LinkedListDefinition;
 
 import java.util.Scanner;
 
