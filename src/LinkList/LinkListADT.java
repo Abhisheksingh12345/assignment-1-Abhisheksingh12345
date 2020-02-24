@@ -1,4 +1,4 @@
 package LinkList;
 
-public interface LinkListADT {
+public interface LinkListADT<E> {
 }
