@@ -27,9 +27,5 @@ public class View {
             System.out.println("\nEmail Address :" + person.getEmailAddress());
             System.out.println("----------*--------------*---------------*");
         }
-
-
     }
-
-
 }
