@@ -1,4 +1,4 @@
 package LinkList;
 
-public class LinkedListDefinition {
+public class LinkedListDefinition<E> implements LinkListADT {
 }
