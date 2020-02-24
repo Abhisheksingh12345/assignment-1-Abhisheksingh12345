@@ -42,5 +42,10 @@ public class LinkedListDefinition<E> implements LinkListADT {
         add(size, item);
     }
 
+    @Override
+    public E remove() {
+        return remove(size - 1);
+    }
+
 
 }
