@@ -60,5 +60,30 @@ public class LinkedListDefinition<E> implements LinkListADT {
         return response;
     }
 
+    private E removeFirst() {
+        E response = null;
+        Node<E> temp = head;
+        if (head != null) {
+            head = head.getNext();
+        }
+        if (temp != null) {
+            size--;
+            response = temp.getData();
+        }
+
+        return response;
+    }
+
+    private E removeAfter(Node<E> node) {
+        E response = null;
+        Node<E> temp = node.getNext();
+        if (temp != null) {
+            node.next = temp.getNext();
+            size--;
+            response = temp.getData();
+        }
+        return response;
+    }
+
 
 }
