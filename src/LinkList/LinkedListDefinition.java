@@ -21,4 +21,8 @@ public class LinkedListDefinition<E> implements LinkListADT {
         size++;
     }
 
+    private void addAfter(Node<E> node, E item) {
+        node.next = new Node<>(item, node.next);
+        size++;
+    }
 }
