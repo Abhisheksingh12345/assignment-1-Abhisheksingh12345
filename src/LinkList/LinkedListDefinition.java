@@ -115,5 +115,7 @@ public class LinkedListDefinition<E> implements LinkListADT {
         return node.getData();
     }
 
+    private static class Node<E> {
 
-}
+
+    }
