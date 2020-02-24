@@ -8,4 +8,12 @@ public class LinkedListDefinition<E> implements LinkListADT {
         return size;
     }
 
+    private Node<E> getNode(int index) {
+        Node<E> response = head;
+        for (int i = 0; i < index; i++) {
+            response = response.getNext();
+        }
+        return response;
+    }
+
 }
