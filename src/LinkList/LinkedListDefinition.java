@@ -37,5 +37,10 @@ public class LinkedListDefinition<E> implements LinkListADT {
         }
     }
 
+    @Override
+    public void add(E item) {
+        add(size, item);
+    }
+
 
 }
