@@ -22,6 +22,16 @@ public class SearchContact {
                 matchedContact.add(person1);
             }
         }
+        if (match > 0) {
+            System.out.println(match + " match found!");
+        } else {
+            System.out.println("NO RESULTS FOUND!");
+        }
+        view.printContact(matchedContact, match);
+
+    }
+
+}
 
 
 
