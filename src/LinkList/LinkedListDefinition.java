@@ -16,4 +16,9 @@ public class LinkedListDefinition<E> implements LinkListADT {
         return response;
     }
 
+    private void addFirst(E item) {
+        head = new Node<>(item, head);
+        size++;
+    }
+
 }
