@@ -118,6 +118,10 @@ public class LinkedListDefinition<E> implements LinkListADT {
     private static class Node<E> {
         private E data;
         private Node<E> next;
+
+        private Node(E data) {
+            this.data = data;
+        }
     }
 
 
