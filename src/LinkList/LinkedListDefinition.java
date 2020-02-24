@@ -127,7 +127,15 @@ public class LinkedListDefinition<E> implements LinkListADT {
             this.data = data;
             this.next = next;
         }
+
+        private E getData() {
+            return data;
+        }
+
+        private Node<E> getNext() {
+            return next;
+        }
     }
 
 
-    }
+}
