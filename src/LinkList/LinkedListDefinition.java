@@ -100,5 +100,16 @@ public class LinkedListDefinition<E> implements LinkListADT {
         return response;
     }
 
+    @Override
+    public void print() {
+        System.out.print("[");
+        for (int i = 0; i < size; i++) {
+            E data = this.getNode(i).getData();
+            System.out.print(data + (i < size - 1 ? ", " : ""));
+        }
+        System.out.println("]");
+
+    }
+
 
 }
